@@ -5,7 +5,6 @@ import DataProvider from './DataProvider/DataProvider';
 function App() {
   return (
     <DataProvider >
-      hhhh
       <Header/>
       <Home/>
     </DataProvider>

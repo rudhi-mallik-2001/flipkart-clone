@@ -21,7 +21,7 @@ const PASSWORD=process.env.DB_PASSWORD;
 Connection(USERNAME,PASSWORD);
 
 app.listen(PORT,()=>{
-    console.log("Connected successfully with localhost.. ")
+    console.log("Connected successfully with localhost.. ",PORT)
 })
 
 Defaultdata();

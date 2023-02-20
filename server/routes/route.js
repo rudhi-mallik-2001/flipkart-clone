@@ -6,5 +6,6 @@ const Router=express.Router();
 Router.post('/signup',userSignup);
 Router.post('/login',userLogin);
 
-Router.post('/products',getProducts)
+Router.get('/products',getProducts);
+console.log('hello i am getproduct');
 export default Router;
